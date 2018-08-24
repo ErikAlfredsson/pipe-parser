@@ -9,6 +9,7 @@ const parser = {
   B: [
     ":pipe_rd::dot_lr::pipe_dl:",
     ":pipe_urd::pipe_rdl::pipe_lu:",
+    ":dot_du::dot_ud::blank:",
     ":pipe_urd::pipe_lur::pipe_dl:",
     ":pipe_ur::dot_rl::pipe_lu:"
   ],
