@@ -14,8 +14,8 @@ const parser = {
     ":pipe_ur::dot_rl::pipe_lu:"
   ],
   C: [
-    ":pipe_rd::dot_rl::pipe_l:",
-    ":dot_ud::blank::blank:",
+    ":pipe_rd::dot_lr::pipe_l:",
+    ":dot_du::blank::blank:",
     ":pipe_du::blank::blank:",
     ":dot_du::blank::blank:",
     ":pipe_ur::dot_rl::pipe_l:"
@@ -122,7 +122,7 @@ const parser = {
   S: [
     ":pipe_rd::dot_lr::pipe_dl:",
     ":dot_du::blank::blank:",
-    ":pipe_ur::dot_lr::pipe_dl:",
+    ":pipe_ur::dot_rl::pipe_dl:",
     ":blank::blank::dot_du:",
     ":pipe_ur::dot_lr::pipe_lu:"
   ],
