@@ -10,7 +10,9 @@ Execute the following command:
 
 This will copy the output to your clipboard. Now paste message into Slack.
 
-You can also set the color of the pipes and dots.
+#
+
+It is also set the color of the pipes and dots.
 
 Set the pipe color to red by passing `r` as the second parameter like so:
 
