@@ -208,6 +208,10 @@ const parser = {
 const MaxRows = 5;
 const args = process.argv.slice(2);
 const inputString = args[0];
+const inputPipeColor = args[1];
+const pipeColor = inputPipeColor === "g" ? "g" : "";
+const inputDotColor = args[2];
+const dotColor = inputDotColor === "r" ? "r" : "";
 
 if (!inputString) {
   console.log(
@@ -236,7 +240,11 @@ function parseString(string) {
   }
 
   rows.splice(0, 0, ":blank:");
-  return rows.join("\n");
+  const output = rows.join("\n");
+  const pipeColorised = output.split("pipe").join(`pipe${pipeColor}`);
+  const fullyColorised = pipeColorised.split("dot").join(`dot${dotColor}`);
+
+  return fullyColorised;
 }
 
 const output = parseString(inputString);
