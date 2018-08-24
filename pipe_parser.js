@@ -76,12 +76,40 @@ const parser = {
     ":dot_du::blank::blank:",
     ":pipe_ur::dot_rl::pipe_l:"
   ],
+  M: [
+    ":pipe_rd::pipe_dl::pipe_rd::pipe_dl:",
+    ":dot_du::dot_ud::dot_du::dot_ud:",
+    ":pipe_du::pipe_ur::pipe_lu::pipe_du:",
+    ":dot_du::blank::blank::dot_ud:",
+    ":pipe_u::blank::blank::pipe_u:"
+  ],
+  N: [
+    ":pipe_rd::pipe_dl::blank::pipe_d:",
+    ":dot_du::dot_ud::blank::dot_ud:",
+    ":pipe_du::pipe_ur::pipe_dl::pipe_du:",
+    ":dot_du::blank::dot_ud::dot_ud:",
+    ":pipe_u::blank::pipe_ur::pipe_lu:"
+  ],
   O: [
     ":pipe_rd::dot_lr::pipe_dl:",
     ":dot_du::blank::dot_ud:",
     ":pipe_du::blank::pipe_du:",
     ":dot_du::blank::dot_ud:",
     ":pipe_ur::dot_rl::pipe_lu:"
+  ],
+  P: [
+    ":pipe_rd::dot_lr::pipe_dl:",
+    ":dot_du::blank::dot_ud:",
+    ":pipe_urd::pipe_lr::pipe_lu:",
+    ":dot_du::blank::blank:",
+    ":pipe_u::blank::blank:"
+  ],
+  Q: [
+    ":pipe_rd::dot_lr::pipe_dl:",
+    ":dot_du::blank::dot_ud:",
+    ":pipe_du::blank::pipe_du:",
+    ":dot_du::blank::dot_ud:",
+    ":pipe_ur::dot_rl::pipe_lur:"
   ],
   R: [
     ":pipe_rd::dot_lr::pipe_dl:",
@@ -90,12 +118,82 @@ const parser = {
     ":dot_du::pipe_ur::pipe_dl:",
     ":pipe_u::blank::pipe_u:"
   ],
+  S: [
+    ":pipe_rd::dot_lr::pipe_dl:",
+    ":dot_du::blank::blank:",
+    ":pipe_ur::dot_lr::pipe_dl:",
+    ":blank::blank::dot_du:",
+    ":pipe_ur::dot_lr::pipe_lu:"
+  ],
+  T: [
+    ":pipe_r::pipe_rdl::dot_lr::pipe_l:",
+    ":blank::dot_du::blank::blank:",
+    ":blank::pipe_du::blank::blank:",
+    ":blank::dot_du::blank::blank:",
+    ":blank::pipe_u::blank::blank:"
+  ],
   U: [
     ":pipe_d::blank::pipe_d:",
     ":dot_ud::blank::dot_du:",
     ":pipe_du::blank::pipe_du:",
     ":dot_ud::blank::dot_du:",
     ":pipe_ur::dot_lr::pipe_lu:"
+  ],
+  V: [
+    ":pipe_d::blank::pipe_d:",
+    ":dot_ud::blank::dot_du:",
+    ":pipe_du::blank::pipe_du:",
+    ":pipe_ur::pipe_dl::dot_du:",
+    ":blank::pipe_ur::pipe_lu:"
+  ],
+  W: [
+    ":pipe_d::blank::pipe_d:",
+    ":dot_ud::blank::dot_du:",
+    ":pipe_du::pipe_d::pipe_du:",
+    ":dot_ud::pipe_du::dot_du:",
+    ":pipe_ur::pipe_lur::pipe_lu:"
+  ],
+  X: [
+    ":pipe_d::blank::pipe_d:",
+    ":pipe_ur::pipe_dl::dot_du:",
+    ":pipe_rd::pipe_x::pipe_lu:",
+    ":dot_du::pipe_ur::pipe_dl:",
+    ":pipe_u::blank::pipe_u:"
+  ],
+  Y: [
+    ":pipe_d::blank::pipe_d:",
+    ":dot_ud::blank::dot_du:",
+    ":pipe_du::blank::pipe_du:",
+    ":pipe_ur::pipe_rdl::pipe_lu:",
+    ":blank::pipe_u::blank:"
+  ],
+  Z: [
+    ":pipe_r::dot_lr::pipe_dl:",
+    ":blank::pipe_rd::pipe_lu:",
+    ":blank::dot_ud::blank:",
+    ":pipe_rd::pipe_lu::blank:",
+    ":pipe_ur::dot_lr::pipe_l:"
+  ],
+  Å: [
+    ":blank::dot_ud::blank:",
+    ":pipe_rd::pipe_lur::pipe_dl:",
+    ":dot_ud::blank::dot_ud:",
+    ":pipe_urd::pipe_lr::pipe_dlu:",
+    ":pipe_u::blank::pipe_u:"
+  ],
+  Ä: [
+    ":dot_ud::blank::dot_ud:",
+    ":pipe_urd::pipe_lr::pipe_dlu:",
+    ":dot_ud::blank::dot_ud:",
+    ":pipe_urd::pipe_lr::pipe_dlu:",
+    ":pipe_u::blank::pipe_u:"
+  ],
+  Ö: [
+    ":dot_du::blank::dot_ud:",
+    ":pipe_urd::pipe_lr::pipe_dlu:",
+    ":pipe_du::blank::dot_ud:",
+    ":dot_du::blank::pipe_du:",
+    ":pipe_ur::dot_rl::pipe_lu:"
   ],
   "4": [
     ":pipe_d::blank::pipe_d:",
