@@ -196,12 +196,26 @@ const parser = {
     ":dot_du::blank::pipe_du:",
     ":pipe_ur::dot_rl::pipe_lu:"
   ],
+  "3": [
+    ":pipe_r::dot_rl::pipe_dl:",
+    ":blank::blank::dot_du:",
+    ":pipe_r::dot_rl::pipe_dlu:",
+    ":blank::blank::dot_du:",
+    ":pipe_r::dot_lr::pipe_lu:"
+  ],
   "4": [
     ":pipe_d::blank::pipe_d:",
     ":dot_du::blank::dot_du:",
     ":pipe_ur::dot_rl::pipe_dlu:",
     ":blank::blank::dot_du:",
     ":blank::blank::pipe_u:"
+  ],
+  "?": [
+    ":pipe_rd::dot_lr::pipe_dl:",
+    ":pipe_u::blank::dot_ud:",
+    ":blank::pipe_rd::pipe_lu:",
+    ":blank::dot_ud::blank:",
+    ":blank::pipe_u::blank:"
   ]
 };
 
