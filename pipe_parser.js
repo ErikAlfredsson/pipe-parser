@@ -223,9 +223,9 @@ if (!inputString) {
 function parseCharacther(character, row) {
   switch (character) {
     case " ":
-      return ":blank:";
+      return ":blank::blank:";
     default:
-      return `${parser[character.toUpperCase()][row]}:blank:`;
+      return `${parser[character.toUpperCase()][row]}`;
   }
 }
 
