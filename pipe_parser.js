@@ -85,11 +85,11 @@ const parser = {
     ":pipe_u::blank::blank::pipe_u:"
   ],
   N: [
-    ":pipe_rd::pipe_dl::blank::pipe_d:",
-    ":dot_du::dot_ud::blank::dot_ud:",
-    ":pipe_du::pipe_ur::pipe_dl::pipe_du:",
-    ":dot_du::blank::dot_ud::dot_ud:",
-    ":pipe_u::blank::pipe_ur::pipe_lu:"
+    ":pipeg_rd::pipeg_dl::blank::pipeg_d:",
+    ":dot_du::dot_ud::blank::dot_du:",
+    ":pipeg_du::pipeg_ur::pipeg_dl::pipeg_du:",
+    ":dot_du::blank::dot_ud::dot_du:",
+    ":pipeg_u::blank::pipeg_ur::pipeg_lu:"
   ],
   O: [
     ":pipe_rd::dot_lr::pipe_dl:",
