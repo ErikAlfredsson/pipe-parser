@@ -127,11 +127,11 @@ const parser = {
     ":pipe_ur::dot_lr::pipe_lu:"
   ],
   T: [
-    ":pipe_r::pipe_rdl::dot_lr::pipe_l:",
-    ":blank::dot_du::blank::blank:",
-    ":blank::pipe_du::blank::blank:",
-    ":blank::dot_du::blank::blank:",
-    ":blank::pipe_u::blank::blank:"
+    ":pipe_r::pipe_rdl::pipe_l:",
+    ":blank::dot_du::blank:",
+    ":blank::pipe_du::blank:",
+    ":blank::dot_du::blank:",
+    ":blank::pipe_u::blank:"
   ],
   U: [
     ":pipe_d::blank::pipe_d:",
