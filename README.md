@@ -9,3 +9,7 @@ Execute the following command:
 - `node pipe_parser.js "TEXT_YOU_WANT_TRANSLATED"`
 
 This will copy the output to your clipboard. Now paste message into Slack.
+
+## Example
+
+![Alt Text](https://github.com/ErikAlfredsson/pipe-parser/blob/master/example.gif)
