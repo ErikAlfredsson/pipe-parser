@@ -196,6 +196,13 @@ const parser = {
     ':dot_du::blank::pipe_du:',
     ':pipe_ur::dot_rl::pipe_lu:',
   ],
+  '1': [
+    ':pipe_rd::pipe_dl::blank:',
+    ':pipe_u::dot_ud::blank:',
+    ':blank::pipe_du::blank:',
+    ':blank::dot_ud::blank:',
+    ':pipe_r::pipe_lur::pipe_l:',
+  ],
   '3': [
     ':pipe_r::dot_rl::pipe_dl:',
     ':blank::blank::dot_du:',
