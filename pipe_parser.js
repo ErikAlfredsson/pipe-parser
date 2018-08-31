@@ -21,11 +21,11 @@ const parser = {
     ':pipe_ur::dot_rl::pipe_l:',
   ],
   D: [
-    ':pipe_rd::dot_lr::pipe_dl::blank:',
-    ':dot_du::blank::pipe_ur::pipe_dl:',
-    ':pipe_du::blank::blank::pipe_du:',
-    ':dot_du::blank::pipe_rd::pipe_lu:',
-    ':pipe_ur::dot_rl::pipe_lu::blank:',
+    ':pipe_rd::pipe_dl::blank:',
+    ':dot_du::pipe_ur::pipe_dl:',
+    ':pipe_du::blank::dot_ud:',
+    ':dot_du::pipe_rd::pipe_lu:',
+    ':pipe_ur::pipe_lu::blank:',
   ],
   E: [
     ':pipe_rd::dot_lr::pipe_l:',
@@ -42,11 +42,11 @@ const parser = {
     ':pipe_u::blank::blank:',
   ],
   G: [
-    ':blank::pipe_rd::pipe_dl::blank:',
-    ':pipe_rd::pipe_lu::pipe_ur::pipe_l:',
-    ':dot_du::blank::blank::blank:',
-    ':dot_du::blank::pipe_r::pipe_dl:',
-    ':pipe_ur::dot_rl::dot_rl::pipe_lu:',
+    ':pipe_rd::dot_lr::pipe_dl:',
+    ':dot_du::blank::pipe_u:',
+    ':pipe_du::blank::blank:',
+    ':dot_du::pipe_r::pipe_dl:',
+    ':pipe_ur::dot_rl::pipe_lu:',
   ],
   H: [
     ':pipe_d::blank::pipe_d:',
